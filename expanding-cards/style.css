@@ -49,11 +49,13 @@ body {
 /* active panel to be wider */
 .panel.active {
     flex: 5;
+    
 }
 
 /* title to show when active */
 .panel.active h3 {
-    opacity: 0.8
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in 0.5s;
 }
 
 /* update vw on small screens to give extra space, remove last 2 panels using pseudoclass (pseudoselector)  */
