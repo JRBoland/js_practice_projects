@@ -1,6 +1,6 @@
  ![expanding-cards-demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNjZjEzMjVjMDNmOTBiYTQyZDEwNTYyMWQxYzRmYWFjYTNhNDQyYSZjdD1n/nIaUbMG2jmCfLUfYQI/giphy.gif) 
 
-![Check the live version in your browser](beef-expanding-cards.netlify.app)
+![Check the live version in your browser](https://beef-expanding-episode-cards.netlify.app/)
 
 HTML: Expanding cards (panels) styled with a background image and heading.
 
