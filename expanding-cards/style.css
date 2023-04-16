@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* display: flex; so any immediate children (the divs) are put horizontally into a row */
+.container {
+    display: flex; 
+    width: 90vw;
+}
+
+/* panels */
+.panel {
+    background-size: cover; /* same as auto 100% but keeps rounded corners on larger screens*/
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 80vh; 
+    border-radius: 50px;
+    color: #f6f7b8;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+/* titles  */
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    /* to be changed on active panel for viewable h3 */
+    opacity: 0;
+}
+
+/* active panel to be wider */
+.panel.active {
+    flex: 5;
+}
+
+/* title to show when active */
+.panel.active h3 {
+    opacity: 0.8
+}
+
+/* update vw on small screens to give extra space, remove last 2 panels using pseudoclass (pseudoselector)  */
+@media(max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+
+    .panel:nth-of-type(4), 
+    .panel:nth-of-type(5) {
+        display: none;
+    } 
+}
