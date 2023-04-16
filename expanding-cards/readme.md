@@ -1,4 +1,4 @@
- <div style="text-align:center">
+<p align="center">
 
 # BEEF EXPANDING TITLE CARDS
 
@@ -14,4 +14,4 @@ JS: When a panel is clicked it is set as active and expands.
 
 Images: Beef (Netflix) title cards, episodes 1 - 5. Art by David Choe. 
 
-</div>
+</p>
