@@ -6,12 +6,28 @@
 
 body {
     font-family: 'Muli', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: #f8f9f5;
+}
+
+/* dark mode */
+.dark-mode {
+    background-color: rgb(43, 41, 41);
+  }
+
+h3 a {
+    color: #f6f7b8;
+    text-decoration: none;
+}
+
+h3 a:visited {
+    color: #f6f7b8;
 }
 
 /* display: flex; so any immediate children (the divs) are put horizontally into a row */
@@ -22,39 +38,63 @@ body {
 
 /* panels */
 .panel {
-    background-size: cover; /* same as auto 100% but keeps rounded corners on larger screens*/
+    /*background-size: cover; /* same as auto 100% but keeps rounded corners on larger screens*/
     background-position: center; 
     background-repeat: no-repeat;
     height: 80vh; 
-    border-radius: 50px;
+    border-radius: 2px;
     color: #f6f7b8;
+    text-shadow: 2px 2px rgba(25, 25, 5, 0.333);
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: flex 0.8s ease-in;
+}
+
+button {
+    font-size: 16px;
+    font-style: bold;
+    border: none;
+    padding: 5px 5px;
+    color: #b7ab2a;
+    text-shadow: 1px 1px #f555;
+    background-color: transparent;
+    position: absolute;
+    bottom: 3vh;
 }
 
 /* titles  */
 .panel h3 {
     font-size: 24px;
     position: absolute;
-    bottom: 20px;
+    bottom: 40vh;
     left: 20px;
     margin: 0;
     /* to be changed on active panel for viewable h3 */
     opacity: 0;
 }
 
+.panel h3 a {
+    pointer-events: none;
+}
+
+.panel.active h3 a {
+    pointer-events: auto;
+    
+}
+
 /* active panel to be wider */
 .panel.active {
     flex: 5;
+    transition: 0.3s;
+    border-radius: 10px;
     
 }
 
 /* title to show when active */
 .panel.active h3 {
-    opacity: 0.8;
+    opacity: 0.95;
     transition: opacity 0.3s ease-in 0.5s;
 }
 
