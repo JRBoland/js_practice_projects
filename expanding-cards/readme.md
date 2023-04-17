@@ -21,6 +21,7 @@ JS: When a panel is clicked it is set as active and expands.
 </li>
 <li>
 Images: Beef (Netflix) title cards, episodes 1 - 5. Art by David Choe. 
+</li>
 </p>
 
 <p style="italic">
