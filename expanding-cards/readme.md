@@ -1,13 +1,12 @@
 
-<p align="center">
-<h1>BEEF EXPANDING TITLE CARDS</h1>
-</p>
+<h1 align="center">
+BEEF EXPANDING TITLE CARDS
+</h1>
 <p align="center">
 <img src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNjZjEzMjVjMDNmOTBiYTQyZDEwNTYyMWQxYzRmYWFjYTNhNDQyYSZjdD1n/nIaUbMG2jmCfLUfYQI/giphy.gif"> 
 </p>
-<p align="center">
-<h3><a href="https://beef-expanding-episode-cards.netlify.app/">Live version</a></h3>
-</p>
+<h3 align="center">
+<a href="https://beef-expanding-episode-cards.netlify.app/">Live version</a></h3>
 <p align="center">
 HTML: Expanding cards (panels) styled with a background image and heading.
 </p>
