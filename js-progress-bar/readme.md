@@ -4,11 +4,11 @@ PROGRESS BAR
 </h1>
 <p align="center">
 <img src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzYxMmIwZTVjNWY5OWMyMGI3NDIwZGZiYzJkM2VlZTNmNmUzODVhYSZjdD1n/lAVgVWgIL3LWhLUbyO/giphy.gif">
-<h3 align="center"><a href="js-progress-bar.netlify.app">Live version</a></h3>
+<h3><a href="https://js-progress-bar.netlify.app/">Live Version</a></h3>
 
 <br>
 
-<div align="center" style="display: inline-block; text-align: left; margin-left: 3em;">
+<div style="display: inline-block; text-align: left;">
 <li> Progress bar with next and previous buttons to indicate steps in progress.
 </li>
 <li> At step 1, previous is disabled, at final step next is disabled.
