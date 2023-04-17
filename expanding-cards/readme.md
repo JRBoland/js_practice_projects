@@ -14,4 +14,7 @@ JS: When a panel is clicked it is set as active and expands.
 
 Images: Beef (Netflix) title cards, episodes 1 - 5. Art by David Choe. 
 
+Issues:
+- When clicking live repo link on mobile, dark mode button is overlapping image panels.
+
 </p>
