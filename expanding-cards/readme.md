@@ -9,7 +9,7 @@ BEEF EXPANDING TITLE CARDS
 <a href="https://beef-expanding-episode-cards.netlify.app/">Live version</a></h3>
 <br>
 <p align="center">
-<div style="display: inline-block; text-align: left;">
+<div style="display: inline-block; text-align: left; margin-left: 3em;">
 <li>
 HTML: Expanding cards (panels) styled with a background image and heading.
 </li>

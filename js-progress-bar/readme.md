@@ -8,7 +8,7 @@ PROGRESS BAR
 
 <br>
 <p align="center">
-<div style="display: inline-block; text-align: left;">
+<div style="display: inline-block; text-align: left; margin-left: 3em;">
 <li> Progress bar with next and previous buttons to indicate steps in progress.
 </li>
 <li>
