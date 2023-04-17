@@ -77,6 +77,10 @@ button {
     opacity: 0;
 }
 
+button:active {
+    transform: scale(.98);
+}
+
 .panel h3 a {
     pointer-events: none;
 }
@@ -99,6 +103,10 @@ button {
 .panel.active h3 {
     opacity: 0.95;
     transition: opacity 0.3s ease-in 0.5s;
+}
+
+.panel.active h3:active {
+    transform: scale(.98);
 }
 
 /* update vw on small screens to give extra space, remove last 2 panels using pseudoclass (pseudoselector)  */
