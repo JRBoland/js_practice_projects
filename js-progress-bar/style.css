@@ -55,11 +55,12 @@ body {
     left: 0; 
     transform: translateY(-50%); /* to make the middle of the bar in the middle, without then just the top is in the middle */
     height: 4px;
-    width: 20%;
+    width: 0%;
     z-index: -1; /* put it behind the numbers */
     transition: 0.4s ease; /* Progress bar movement */
 }
 
+/* circles around numbers with transition to match */
 .circle {
     background-color: #fff;
     color: #999;
@@ -89,6 +90,7 @@ body {
     font-size: 14px;
 }
 
+/* make that button bounce when clicked */
 .btn:active {
     transform: scale(.98);
 }
@@ -97,7 +99,14 @@ body {
     outline: 0;
 }
 
+/* disable button */
 .btn:disabled {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90vw;
+    }
 }
