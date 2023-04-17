@@ -8,8 +8,8 @@ BEEF EXPANDING TITLE CARDS
 <h3 align="center">
 <a href="https://beef-expanding-episode-cards.netlify.app/">Live version</a></h3>
 <br>
-<p align="center">
-<div style="display: inline-block; text-align: left; margin-left: 3em;">
+
+<div align="center" style="display: inline-block; text-align: left; margin-left: 3em;">
 <li>
 HTML: Expanding cards (panels) styled with a background image and heading.
 </li>
@@ -22,7 +22,6 @@ JS: When a panel is clicked it is set as active and expands.
 <li>
 Images: Beef (Netflix) title cards, episodes 1 - 5. Art by David Choe. 
 </li>
-</p>
 
 <p style="italic">
 Issues:

@@ -7,12 +7,10 @@ PROGRESS BAR
 <h3 align="center"><a href="js-progress-bar.netlify.app">Live version</a></h3>
 
 <br>
-<p align="center">
-<div style="display: inline-block; text-align: left; margin-left: 3em;">
+
+<div align="center" style="display: inline-block; text-align: left; margin-left: 3em;">
 <li> Progress bar with next and previous buttons to indicate steps in progress.
 </li>
-<li>
-- At step 1, previous is disabled, at final step next is disabled.
+<li> At step 1, previous is disabled, at final step next is disabled.
 </li>
-</p>
 </div>
