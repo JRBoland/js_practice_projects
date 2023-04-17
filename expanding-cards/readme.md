@@ -5,7 +5,7 @@ BEEF EXPANDING TITLE CARDS
 <p align="center">
 <img src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNjZjEzMjVjMDNmOTBiYTQyZDEwNTYyMWQxYzRmYWFjYTNhNDQyYSZjdD1n/nIaUbMG2jmCfLUfYQI/giphy.gif"> 
 </p>
-<h3>
+<h3 align="center">
 <a href="https://beef-expanding-episode-cards.netlify.app/">Live Version</a></h3>
 <br>
 
@@ -22,7 +22,7 @@ JS: When a panel is clicked it is set as active and expands.
 <li>
 Images: Beef (Netflix) title cards, episodes 1 - 5. Art by David Choe. 
 </li>
-
+<br>
 <p style="italic">
 Issues:
 - When clicking live repo link on mobile, dark mode button is overlapping image panels.

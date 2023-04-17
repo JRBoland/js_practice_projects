@@ -4,7 +4,7 @@ PROGRESS BAR
 </h1>
 <p align="center">
 <img src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzYxMmIwZTVjNWY5OWMyMGI3NDIwZGZiYzJkM2VlZTNmNmUzODVhYSZjdD1n/lAVgVWgIL3LWhLUbyO/giphy.gif">
-<h3><a href="https://js-progress-bar.netlify.app/">Live Version</a></h3>
+<h3 align="center"><a href="https://js-progress-bar.netlify.app/">Live Version</a></h3>
 
 <br>
 
