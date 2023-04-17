@@ -17,12 +17,15 @@ function removeActiveClasses() {
 function darkMode() {
     let element = document.body;
     element.classList.toggle("dark-mode");
-
+    
     let btn = document.getElementById("dark-mode-btn");
-    if (btn.textContent === "GO DARK") {
-        btn.textContent = "GO LIGHT";
+
+    if (btn.textContent === "LIGHTS OFF") {
+        btn.textContent = "LIGHTS ON" 
+        btn.style.color = "#dad6b0";
     } else {
-        btn.textContent = "GO DARK"
+        btn.textContent = "LIGHTS OFF"
+        btn.style.color = "#b7ab2a"
     }
     }
 
