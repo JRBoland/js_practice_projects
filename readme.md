@@ -9,4 +9,5 @@ View the readme for a live version demo in your browser. </p>
 <li><a href="https://github.com/JRBoland/js_practice_projects/tree/main/expanding-cards">Expanding Cards</a></li>
 <li><a href="https://github.com/JRBoland/js_practice_projects/tree/main/js-progress-bar">Progress Bar</a></li>
 </ol>
+<p>Projects are from Brad Traversy's 50 Projects in 50 Days - HTML, CSS & JavaScript.
 </div>
