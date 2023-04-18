@@ -1,6 +1,6 @@
 <h1 align="center">50 HTML/CSS/JS Practice Projects</h1>
 <br>
-<p align="center">Check out some of the projects below. 
+<p align="center">Check out some of the projects below. <br>
 View the readme for a live version demo in your browser. </p>
 <br>
 <br>
